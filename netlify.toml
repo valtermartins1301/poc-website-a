@@ -2,4 +2,5 @@
   from = "/*"
   to = "https://poc-website-b.netlify.app"
   status = 200
-  query = {experiment = "TEST001b"}
+  force = true
+  query = {experiment = ":path"}

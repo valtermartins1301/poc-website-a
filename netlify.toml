@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/?experiment=TEST001b"
+  to = "https://poc-website-b.netlify.app"
+  status = 200

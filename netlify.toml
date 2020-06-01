@@ -12,7 +12,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://poc-website-a.netlify.app/:experiment/:splat"
+  to = "/:experiment/:splat"
   status = 200
   force = true
   query = {experiment = ":experiment"}

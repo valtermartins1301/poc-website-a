@@ -12,4 +12,4 @@
   from = "/*"
   query = {experiment = ":id"}
   to = "/:id/:splat"
-  status = 200
+  status = 301

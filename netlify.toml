@@ -14,5 +14,4 @@
   from = "/*"
   to = "https://poc-website-a.netlify.app/:id/:splat"
   status = 200
-  force = true
   query = {experiment = ":id"}

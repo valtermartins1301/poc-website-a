@@ -6,7 +6,7 @@
 
 [[redirects]]
   from = "/TEST001a/*"
-  to = "https://poc-website-a.netlify.app/:splat"
+  to = "/:splat"
   force = true
   status = 200
 

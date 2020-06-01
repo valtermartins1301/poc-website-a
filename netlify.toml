@@ -1,18 +1,18 @@
 [[redirects]]
   from = "/TEST001b/*"
   to = "https://poc-website-b.netlify.app/:splat"
-  status = 200
   force = true
+  status = 200
 
 [[redirects]]
   from = "/TEST001a/*"
   to = "https://poc-website-a.netlify.app/:splat"
-  status = 200
   force = true
+  status = 200
 
 [[redirects]]
   from = "/*"
-  to = "https://poc-website-b.netlify.app/:splat"
+  to = "https://poc-website-b.netlify.app/:path/:splat"
   status = 200
   force = true
   query = {experiment = ":path"}

@@ -1,14 +1,14 @@
-# [[redirects]]
-#   from = "/TEST001b/*"
-#   to = "https://poc-website-b.netlify.app/:splat"
-#   force = true
-#   status = 200
+[[redirects]]
+  from = "/TEST001b/*"
+  to = "https://poc-website-b.netlify.app/:splat"
+  force = true
+  status = 200
 
-# [[redirects]]
-#   from = "/TEST001a/*"
-#   to = "https://poc-website-a.netlify.app/:splat"
-#   force = true
-#   status = 200
+[[redirects]]
+  from = "/TEST001a/*"
+  to = "https://poc-website-a.netlify.app/:splat"
+  force = true
+  status = 200
 
 [[redirects]]
   from = "/*"

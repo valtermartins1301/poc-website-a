@@ -9,7 +9,7 @@
   status = 200
 
 [[redirects]]
-  from = "/*"
-  to = "/:experiment/:splat"
+  from = "/"
+  query = {experiment = ":id"}
+  to = "/:id/"
   status = 301
-  query = {experiment = ":experiment"}

@@ -1,3 +1,0 @@
-/TEST001b/*  https://poc-website-b.netlify.app/:splat 200
-/TEST001a/*  /:splat 200
-/* experiment=:id /:id/:splat 200

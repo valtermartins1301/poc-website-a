@@ -6,13 +6,13 @@
 
 [[redirects]]
   from = "/TEST001a/*"
-  to = "/:splat"
+  to = "https://poc-website-a.netlify.app/:splat"
   force = true
   status = 200
 
 [[redirects]]
   from = "/*"
-  to = "/:experiment/:splat"
-  status = 200
+  to = "https://poc-website-a.netlify.app/:id/:splat"
+  status = 301
   force = true
-  query = {experiment = ":experiment"}
+  query = {experiment = ":id"}

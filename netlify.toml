@@ -13,6 +13,5 @@
 [[redirects]]
   from = "/*"
   to = "https://poc-website-a.netlify.app/:path/:splat"
-  status = 200
-  force = false
+  status = 301
   query = {experiment = ":path"}
